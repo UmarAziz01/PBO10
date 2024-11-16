@@ -27,6 +27,19 @@ Berikut langkah-langkahnya :
   ![image](https://github.com/user-attachments/assets/92482ab4-d3bb-4520-b1d1-5cfeae7a702f)
   ![image](https://github.com/user-attachments/assets/c6e10bba-bf93-4602-9797-2e4e41acca16)
   Dan Klik “Copy” lalu setelah itu cari project dengan nama PBO_Login dan klik copy lalu klik 2x untuk membuka project baru yang telah dibuat
+  ![Screenshot 2024-11-16 195441](https://github.com/user-attachments/assets/46ba1228-b3e8-42ea-8451-e905d0b201be)
+  karena hasil copy project maka butuh penyesuaian nama package, ubah nama package yang awalnya dari PBO_Persistence menjadi pbo_login, maka klik "Refactor" dengan tekan CTRL + R pada package dan lakukan hal serupa pada kode didalamnya jika masih menggunakan package PBO_Persistence
+  ![image](https://github.com/user-attachments/assets/58b30190-ddab-4656-9de5-b8c2ad206902)
+
+- Buat tabel baru dalam database dengan nama pengguna yang memiliki 2 kolom yakni Username dan Password untuk tipe data yang digunakan menyesuaikan kebutuhan, disini saya akan menggunakan Varchar. Dan masukkan juga Username dan password agar bisa diakses
+  
+  
+
+
+
+ 
+  
+
     
 
   
