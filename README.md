@@ -41,6 +41,61 @@ Berikut langkah-langkahnya :
   sehingga muncul 3 file tersebut secara otomatis
 
 - Lalu tambahkan Frame baru dengan nama LoginForm
+  ![Screenshot 2024-11-16 204049](https://github.com/user-attachments/assets/e87097e6-db9c-44ae-9c35-c7ddccec1987)
+  ![Screenshot 2024-11-16 204119](https://github.com/user-attachments/assets/d8d43351-5079-4112-85c7-d68ecdffc639)
+
+- Buka LoginForm.java dan lakukan desain GUI
+  ![image](https://github.com/user-attachments/assets/36c99e52-5fe3-4062-a21c-e3208bcb8f96)
+  ![image](https://github.com/user-attachments/assets/b3b3d1f9-92f3-45bf-aed6-acdaa0283e2c)
+
+- Klik Kanan button Login atau klik 2x juga bisa lalu masukkan kode dibawah ini untuk melakukan pencarian atau kecocokan data yang dimasukkan diprogram dengan yang ada di database
+  ![image](https://github.com/user-attachments/assets/0c12bbbd-cdc4-49d5-8b5a-498f8cf82e28)
+
+  ````java
+  private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {         
+
+        if (tfUsername.getText().equals("") | tfPassword.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Isi Terlebih Dahulu");
+        } else {
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("PBO_LOGIN");
+            EntityManager em = emf.createEntityManager();
+            em.getTransaction().begin();
+
+            String user = tfUsername.getText();
+            String pass = tfPassword.getText();
+            Pengguna pengguna = em.find(Pengguna.class, user);
+
+            if (pengguna == null) {
+                JOptionPane.showMessageDialog(null, "Username salah");
+            } else if (pengguna.getPassword().equals(pass)) {
+                JOptionPane.showMessageDialog(null, "Selamat datang");
+                CRUDForm crudForm = new CRUDForm();
+                crudForm.setVisible(true);
+                this.dispose();
+            } else {
+                JOptionPane.showMessageDialog(null, "Password salah!");
+            }
+            em.getTransaction().commit();
+            em.close();
+            emf.close();
+        }
+    }
+
+- Jika error maka anda perlu untuk menambahkan import ini kedalam kode anda
+  ```java
+  import javax.persistence.EntityManager;
+  import javax.persistence.EntityManagerFactory;
+  import javax.persistence.Persistence;
+  import javax.swing.JOptionPane;
+- Lakukan Clean and Build Project
+  ![image](https://github.com/user-attachments/assets/7370d89d-6e87-4045-b29c-2bfa9b66232b)
+
+- Tunggu proses sampai selesai
+  
+  
+
+
+
   
 
 
