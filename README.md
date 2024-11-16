@@ -34,7 +34,17 @@ Berikut langkah-langkahnya :
 - Buat tabel baru dalam database dengan nama pengguna yang memiliki 2 kolom yakni Username dan Password untuk tipe data yang digunakan menyesuaikan kebutuhan, disini saya akan menggunakan Varchar. Dan masukkan juga Username dan password agar bisa diakses
   ![image](https://github.com/user-attachments/assets/8a0cd469-2a58-4094-902e-7392432c43ee)
 
-- lalu
+- Lalu buat Entity Classes from Database, disini pilih database yang telah kita buat sebelumnya, dan pilih database pada field Data Source dan pilih Add Tables 
+  ![image](https://github.com/user-attachments/assets/5d95b1f6-0fbb-49ff-993a-c03f63fe2aaf)
+  ![image](https://github.com/user-attachments/assets/ddae27a2-9a9e-4f9d-967f-a0b89dcddb03)
+  ![image](https://github.com/user-attachments/assets/0d738059-ec9e-4d1a-bd97-cb4962b388bf)
+  sehingga muncul 3 file tersebut secara otomatis
+
+- Lalu tambahkan Frame baru dengan nama LoginForm
+  
+
+
+
       
 
   
