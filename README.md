@@ -32,6 +32,11 @@ Berikut langkah-langkahnya :
   ![image](https://github.com/user-attachments/assets/58b30190-ddab-4656-9de5-b8c2ad206902)
 
 - Buat tabel baru dalam database dengan nama pengguna yang memiliki 2 kolom yakni Username dan Password untuk tipe data yang digunakan menyesuaikan kebutuhan, disini saya akan menggunakan Varchar. Dan masukkan juga Username dan password agar bisa diakses
+  ![image](https://github.com/user-attachments/assets/8a0cd469-2a58-4094-902e-7392432c43ee)
+
+- lalu
+  
+
   
   
 
