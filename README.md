@@ -23,7 +23,19 @@ https://drive.google.com/drive/folders/12E6Avw_WMRfr2LmdsNi6VL3eu4o3m3DJ?usp=sha
 
 Berikut langkah-langkahnya :
 
-- /
+- Karena perintahnya adalah menambahkan Form Login kedalam project yang telah dibuat (PBO9), sehingga kita mencopy/menduplikasi project yang telah ada dari PBO_Persistence menjadi PBO_Login, dengan cara klik kanan pada project PBO_Persistence sehingga muncul gambar kurang lebih seperti ini
+  ![image](https://github.com/user-attachments/assets/92482ab4-d3bb-4520-b1d1-5cfeae7a702f)
+  ![image](https://github.com/user-attachments/assets/c6e10bba-bf93-4602-9797-2e4e41acca16)
+  Dan Klik “Copy” lalu setelah itu cari project dengan nama PBO_Login dan klik copy lalu klik 2x untuk membuka project baru yang telah dibuat
+    
+
+  
+  
+
+  
+
+  
+
 - /
 - /
 - /
